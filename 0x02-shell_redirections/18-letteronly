@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i **[a-z]* -e "0-9" -e "#" -e "$" /etc/ssh/sshd_config
+grep -iv **[a-z]* -e "0-9" -e "#" -e "$" /etc/ssh/sshd_config
